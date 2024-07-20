@@ -1,0 +1,30 @@
+{
+    "description": "Overrides for the Caps Lock",
+    "manipulators": [
+        {
+            "type": "basic",
+            "description": "Caps Lock becomes escape",
+            "from": {
+                "key_code": "caps_lock"
+            },
+            "to": [
+                {
+                    "key_code": "escape"
+                }
+            ]
+        },
+        {
+            "type": "basic",
+            "description": "Shift + Caps Lock becomes caps lock",
+            "from": {
+                "key_code": "caps_lock"
+            },
+            "to": [
+                {
+                    "key_code": "caps_lock",
+                    "modifiers": ["left_shift"]
+                }
+            ]
+        }
+    ]
+}
