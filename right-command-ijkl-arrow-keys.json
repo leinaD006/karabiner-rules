@@ -1,0 +1,69 @@
+{
+    "description": "Right Command + ijkl as arrow keys",
+    "manipulators": [
+        {
+            "type": "basic",
+            "description": "Right Command + j as left_arrow",
+            "from": {
+                "key_code": "j",
+                "modifiers": {
+                    "mandatory": ["right_command"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow"
+                }
+            ]
+        },
+        {
+            "type": "basic",
+            "description": "Right Command + l as right_arrow",
+            "from": {
+                "key_code": "l",
+                "modifiers": {
+                    "mandatory": ["right_command"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow"
+                }
+            ]
+        },
+        {
+            "type": "basic",
+            "description": "Right Command + i as up_arrow",
+            "from": {
+                "key_code": "i",
+                "modifiers": {
+                    "mandatory": ["right_command"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "up_arrow"
+                }
+            ]
+        },
+        {
+            "type": "basic",
+            "description": "Right Command + k as down_arrow",
+            "from": {
+                "key_code": "k",
+                "modifiers": {
+                    "mandatory": ["right_command"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "down_arrow"
+                }
+            ]
+        }
+    ]
+}
