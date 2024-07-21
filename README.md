@@ -1,19 +1,24 @@
 # Custom Karabiner Rules
 
-This repository contains custom Karabiner rules that can be used to customize keyboard mappings on macOS.
+This repository contains custom [Karabiner](https://karabiner-elements.pqrs.org) rules that can be used to customize keyboard mappings on macOS.
 
-## Installation
+## Install Karabiner
 
-1. Clone this repository to your local machine.
-2. Open the Karabiner-Elements app on your macOS.
-3. Go to the "Complex Modifications" tab.
-4. Click on "Add Rule" and select the desired rule from the repository.
-5. Enable the rule by checking the checkbox next to it.
-6. Enjoy your customized keyboard mappings!
+Karabiner can be installed using:
 
-## Contributing
+```bash
+brew install --cask karabiner-elements
+```
 
-If you have any suggestions or improvements for the existing rules, feel free to open an issue or submit a pull request.
+Installation [guide](https://karabiner-elements.pqrs.org/docs/getting-started/installation/) on the official website. Includes the permissions required to be granted to the app.
+
+## Install Rules
+
+1. Open the Karabiner-Elements app on your macOS.
+2. Go to the "Complex Modifications" tab.
+3. Click on "Add your own rule"
+4. Paste the contents of the rule you want to add.
+5. Enjoy your customized keyboard mappings!
 
 ## License
 
