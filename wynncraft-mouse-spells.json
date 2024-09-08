@@ -1,0 +1,38 @@
+{
+    "description": "Wynncraft mouse spells",
+    "enabled": false,
+    "manipulators": [
+        {
+            "from": {
+                "modifiers": { "mandatory": ["left_command"] },
+                "pointing_button": "button1"
+            },
+            "to": [{ "key_code": "f" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "modifiers": { "mandatory": ["left_command"] },
+                "pointing_button": "button2"
+            },
+            "to": [{ "key_code": "q" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "modifiers": { "optional": ["any"] },
+                "pointing_button": "button5"
+            },
+            "to": [{ "key_code": "k" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "modifiers": { "optional": ["any"] },
+                "pointing_button": "button4"
+            },
+            "to": [{ "key_code": "l" }],
+            "type": "basic"
+        }
+    ]
+}
