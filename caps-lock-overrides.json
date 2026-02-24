@@ -3,7 +3,7 @@
     "manipulators": [
         {
             "type": "basic",
-            "description": "Shift + Caps Lock becomes caps lock",
+            "description": "Right Cmd + Caps Lock becomes caps lock",
             "from": {
                 "key_code": "caps_lock",
                 "modifiers": {
